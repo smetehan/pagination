@@ -18,11 +18,11 @@ function App() {
   return (
     <div className="App">
       <div>
-        {" "}
         <h1 className="header">British Meal </h1>
         <img
           className="imgtitle"
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Great_Britain_%281707%E2%80%931800%29.svg/1200px-Flag_of_Great_Britain_%281707%E2%80%931800%29.svg.png"
+          alt="img"
         />
       </div>
 
@@ -32,7 +32,7 @@ function App() {
           return (
             <div className="card" key={idMeal}>
               <div className="image">
-                <img src={strMealThumb} />
+                <img src={strMealThumb} alt="img" />
               </div>
               <p>{strMeal}</p>
             </div>
